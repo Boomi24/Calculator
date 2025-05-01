@@ -10,7 +10,14 @@
     <center>
         <h1>CALCULATOR</h1>
         <div id="calculator-outline">
-            <input id="input-space" placeholder="Enter a number">
+            <input id="input-space" placeholder="Enter a number" onkeydown="
+                if(event.key === 'Enter'){
+                    result();
+                }
+                if(event.key === 'Backspace'){
+                    backSpace();
+                }
+                ">
             <div id="number-pad">
                 <table>
                     <tr>
