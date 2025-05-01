@@ -1,0 +1,59 @@
+body{
+    font-family: cursive;
+}
+#calculator-outline{
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 470px;
+    overflow: hidden;
+}
+
+#input-space{
+    padding: 25px;
+    font-family: cursive;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: hsl(0, 0%, 10%);
+    border-color: black;
+    width: 50vh;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#number-pad{
+    margin-bottom: 20px;    
+}
+
+td button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+
+.operator-btn{
+    background-color: hsl(35, 100%, 55%);
+}
+
+.operator-btn:hover{
+    background-color: hsl(35, 100%, 40%);
+}
+
+.operator-btn:active{
+    background-color: hsl(39, 100%, 50%);
+}
