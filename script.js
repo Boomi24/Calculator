@@ -9,7 +9,12 @@ function clearDisplay(){
 }
 
 function backSpace(){
-    inputSpace.value = inputSpace.value.slice(0,-1);
+    if(inputSpace.value === 'Error'){
+        inputSpace.value = "";
+    }
+    else{
+        inputSpace.value = inputSpace.value.slice(0,-1);
+    }
 }
 
 function result(){
